@@ -34,6 +34,8 @@ section h1 {
 footer {
   background-color: #333;
   overflow: hidden;
+  margin-top: 20%;
+  
 }
 footer a {
   text-decoration: none;
@@ -53,4 +55,9 @@ section:nth-child(even) {
 section {
   min-height: 50vh;
 }
-
+section p{
+  padding: 0px 100px;
+}
+.copy{
+  float: right;
+}
