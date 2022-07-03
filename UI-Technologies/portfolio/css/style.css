@@ -1,0 +1,50 @@
+@import 'utilities.css';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smotthing:antialiased;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+}
+       
+header{
+    background: var(--dark);
+    height: 500px;
+}
+.container
+{
+    max-width: 1350px;
+    padding: 0 80px;
+    margin: 0 auto;
+}
+header nav .left a {
+    color: var(--pure);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 2rem;
+    transition: all .3s ease;
+}
+header nav .left a:hover{
+    color: var(--primary);
+}
+header nav{
+
+    padding: 2rem; 0;
+    font-size: 0.8rem;
+}
+header nav .branding{
+
+    margin-right: 3rem;
+}
