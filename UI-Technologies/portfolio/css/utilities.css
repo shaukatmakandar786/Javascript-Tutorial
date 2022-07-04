@@ -4,23 +4,38 @@
 }
 
 .items-center{
-    align-items: center;
+    align-items:center;
 }
-.justify-between
+.items-start
 {
-    justify-content: space-between;
+    align-items: flex-start;
+}
+.justify-center
+{
+    justify-content:center;
+    
+}
+.justify-end
+{
+    justify-content: flex-end;
+}
+.justify-start
+{
+    justify-content: flex-start;
+}
+.justify-around{
+    justify-content: space-around;
 }
 .btn{
 
-    padding: 10px 3.5rem;    
+    padding: 0.7rem 1.8rem;    
     font-weight: 500;
-    font-size: 15px;
     border: 2px solid transparent;
     cursor: pointer;
     outline: none;
     text-transform: uppercase;
     transition: all .3s ease;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 .btn-primary{
     background-color:var(--primary);
@@ -46,9 +61,10 @@
    
 }
 .flex-1{
-    flex: 1;
+    flex:1;
 }
 
-.justify-center{
-    justify-content: center;
+.justify-between{
+    justify-content: space-between;
 }
+
