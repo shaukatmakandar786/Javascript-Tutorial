@@ -152,8 +152,46 @@ section.about .social a{
     background-color:var(--pure);
     border-radius: 50px;
     align-items: center;
+    
    
  
 }
 
+section.about .social a i{
 
+    transition: all 0.3s linear;
+    
+    
+}
+section.about .social a:hover i{
+
+    transform: scale(1.2);
+}
+.social .fa-github img{
+    background-color:red;
+}
+.social a{
+
+    text-decoration: none;
+}
+.social .img{
+    font-size:30px;
+    Line-height:60px;
+    transition:.6s;
+    color:var(--dark)
+}
+.social .insta{ 
+
+    color: #E4405F;
+
+}.social .linked{
+
+    color:#0A66C2 ;
+}
+.social .face{
+
+    color: #1877F2;
+}
+.social .you{
+    color: #FF0000;
+}
