@@ -95,3 +95,65 @@ header nav .branding{
 .hero{
     padding: 3rem 0;
 }
+section
+{
+    margin: 6rem 0;
+}
+.about .left .about-me-img{
+
+    /* border-radius: 50%; */
+    height: 340px;
+    margin-bottom: 30px;
+    
+}
+section.about h1{
+
+    margin-bottom:1rem;
+    font-size:1.6rem;
+    font-weight:400;
+    
+}  
+section.about h1 span{
+    color:var(--primary);
+}
+section.about h3{
+
+   font-size:1rem;
+   margin-bottom:1rem;
+   font-weight:400;
+}
+
+section.about p{
+
+    font-family: 'Lato',sans-serif;
+    color:var(--ternary);
+    line-height: 1.9;
+}  
+                
+section.about .social{
+    display: flex;
+}
+section.about .social a{
+    background: var(--dark) ;
+}
+/* .social a{
+    height: 40px;
+    width: 40px;
+    background-color: #f5f6fa;
+    border-radius: 50px;
+
+} */
+
+section.about .social a{
+    display: flex;
+    justify-content: center;
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+    background-color:var(--pure);
+    border-radius: 50px;
+    align-items: center;
+   
+ 
+}
+
+
