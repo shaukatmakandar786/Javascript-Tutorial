@@ -208,7 +208,8 @@ section.services .card-wrapper{
     grid-template-columns: repeat(3,1fr);
     grid-column-gap:2rem;
     grid-row-gap:5rem ;
-    
+    max-width: 60rem;
+    margin-left: 7.5rem;
 }
 section.services .card-wrapper .card{
 
@@ -217,6 +218,7 @@ section.services .card-wrapper .card{
     position: relative;
     text-align: center;
     box-shadow:02px 1px rgba(0,0,0,.5); 
+    transition: all .3s ease;
     
    
 }
@@ -225,29 +227,36 @@ section.services .container{
     padding-top: 20px;
 }
 .fa-solid{
-    width: 53px;
-    height: 53px;
-    font-size: 40px;
+    width: 50px;
+    height: 35px;
+    font-size: 20px;
+
     background: var(--primary);
     position: absolute;
     top: -2rem;
     left: 50%;
     transform: translateX(-50%);
     box-shadow:02px 1px rgba(0,0,0,.7);
-    border-radius: 8px;
-
-}
-section.services .card-wrapper h2{
-
+    /* border-radius: 8px; */
     padding-top: 1rem;
+
 }
 .card p{
 
     font-family: 'Lato',sans-serif;
     color:var(--ternary);
     line-height: 1.4;
+    font-size: 15px;
 }
 .card h3{
 
     font-weight:200;
+    margin-bottom: 0.8rem;
+}
+section.services .card-wrapper .card:hover{
+    background: var(--dark);
+}
+section.services .card-wrapper .card:hover p,section.services .card-wrapper .card:hover h3{
+
+    color: var(--pure);
 }
