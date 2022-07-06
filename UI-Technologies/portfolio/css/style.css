@@ -152,10 +152,14 @@ section.about .social a:hover{
 
     transition: all 0.3s linear;
     transform:translate(0,-5px);  
+    background-color: var(--dark);
+    color: var(--pure);
     
 }
 
-
+section.about .social a:hover .img{
+    color: var(--pure);
+}
 section.about .social a.b:hover{
     background-color: #0A66C2;
 }
