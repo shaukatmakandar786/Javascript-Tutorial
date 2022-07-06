@@ -181,3 +181,72 @@ section.about .social a.e:hover{
     color:var(--dark)
 
 }
+
+.section-heading{
+
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 0.5;
+}
+
+.section-heading span{
+    color: var(--primary) 
+}
+.section-heading + p{
+    color: var(--ternary);
+    text-align: center;
+    margin-bottom: 6rem;
+    font-family: 'Lato',sans-serif;
+}
+section.services{
+    background: var(--light);
+    padding-top: 30px;
+}
+
+section.services .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:2rem;
+    grid-row-gap:3rem ;
+}
+section.services .card-wrapper .card{
+
+    background: var(--pure);
+    padding: 2rem 3rem;
+    position: relative;
+    text-align: center;
+    box-shadow:02px 1px rgba(0,0,0,.3); 
+    /* width: 12rem;
+    height: 10rem; */
+   
+}
+/* section.services .card-wrapper .card img{
+
+    position: absolute;
+    top: -3.5rem;
+    color: red;
+
+} */
+
+section.services .container{
+    height: 800px;
+}
+
+.fa-solid{
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    background: var(--primary);
+    position: absolute;
+    top: -2rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+section.services .card-wrapper h2{
+
+    padding-top: 1rem;
+}
+/* section.services .card-wrapper{
+
+margin-left: 3rem;
+} */
