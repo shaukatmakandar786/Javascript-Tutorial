@@ -133,26 +133,28 @@ section.about .social{
     display: flex;
 }
 section.about .social a{
-    background: var(--dark) ;
+    /* background: var(--dark) ; */
 }
 section.about .social a{
     display: flex;
     justify-content: center;
-    margin-right: 1.5rem;
+    margin-right: 10px;
     /* margin-top: 1rem; */
-    background-color:var(--primary);
+    /* background-color:var(--primary); */
     border-radius: 50px;
     align-items: center;
-    width: 33px;
-    height: 33px;
-    box-shadow:02px 1px rgba(0,0,0,.5); 
+     width: 45px;
+    height: 45px;
+    box-shadow:02px 1px rgba(0,0,0,.5);  
 }
 
 section.about .social a:hover{
 
     transition: all 0.3s linear;
     transform:translate(0,-5px);  
+    
 }
+
 
 section.about .social a.b:hover{
     background-color: #0A66C2;
