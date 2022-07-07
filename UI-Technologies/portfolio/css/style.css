@@ -405,8 +405,78 @@ section.work .card-wrapper .card img{
     height: 190px;
 }
 section.work .container{
-    height: 690px;
+    height: 800px;
     padding-top: 40px;
     margin-top: -3rem;
 
+}
+section.blog{
+    background: var(--dark);
+    margin-top: -6rem;
+    clip-path:polygon(0 0, 100% 0, 100% 100%,67% 90%,0 100%);
+    padding-bottom: 5rem;
+}
+section.blog .section-heading{
+    color: var(--pure);
+    padding-top: 3rem;
+}
+section.blog .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+    padding: 0 9rem;
+
+}
+section.blog .card-wrapper .card{
+    background: var(--pure);
+    margin-top: -2rem;
+}
+section.blog .card-wrapper .card .img-wrapper img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+section.blog .card-wrapper .card .card-content{
+    padding: 2rem;
+}
+
+section.blog .card-wrapper .card .card-content h1{
+    font-size: 1rem;
+    font-family: 600;
+    margin-top: -1.5rem;
+}
+section.blog .card-wrapper .card .card-content a{
+    color: var(--dark);
+    text-decoration: none;
+}
+section.blog .card-wrapper .card .card-content a:hover{
+    color: var(--primary);
+    transition: all .3s ease;
+}
+section.blog .card-wrapper .card .card-content span{
+    color: var(--ternary);
+    font-size: 00.8rem;
+    
+}
+section.blog .card-wrapper .card .card-content p{
+    font-family: 'Lato',sans-serif;
+    color: var(--ternary);
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+section.blog .card-wrapper .card .card-content a.read-more{
+    font-size: 0.8rem;
+}
+
+/* section.blog .card-wrapper .card .img-wrapper img{
+
+    width: 300px;
+    height: 190px;
+} */
+
+section.blog{
+
+    height: 800px;
+    margin-top: -13rem;
 }
