@@ -101,7 +101,6 @@ section
 }
 .about .left .about-me-img{
 
-    /* border-radius: 50%; */
     height: 360px;
     margin-bottom: 30px;
     
@@ -137,8 +136,6 @@ section.about .social a{
     display: flex;
     justify-content: center;
     margin-right: 10px;
-    /* margin-top: 1rem; */
-    /* background-color:var(--primary); */
     border-radius: 50px;
     align-items: center;
      width: 45px;
@@ -241,7 +238,6 @@ section.services .container{
     left: 50%;
     transform: translateX(-50%);
     box-shadow:02px 1px rgba(0,0,0,.7);
-    /* border-radius: 8px; */
     padding-top: 1rem;
 
 }
@@ -273,7 +269,7 @@ section.freelancer{
     padding-bottom: 11rem;
 }
 section.freelancer h1{
-    /* font-size: 2rem; */
+    
     padding-top: 2rem;
     margin-bottom: 0.5rem;
     font-size: 2.5rem;
