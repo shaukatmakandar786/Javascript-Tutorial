@@ -57,13 +57,12 @@ header nav .branding{
     width: 250px;
     margin-right: 5rem;
     border-radius: 50%;
+    
 
 }
 .hero .right{
 
     color:var(--pure);
-    
-    
 }
 
 .hero .right h6{
@@ -264,9 +263,9 @@ section.freelancer{
     text-align: center;
     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/camera.png);
     color: var(--pure);
-    clip-path:polygon(0 0, 100% 0, 100% 100%,67% 75%,0 100%);
+    clip-path:polygon(0 0, 100% 0, 100% 100%,75% 68%,0 100%);
     margin-top: -6rem;
-    padding-bottom: 11rem;
+    padding-bottom: 12rem;
 }
 section.freelancer h1{
     
@@ -411,10 +410,11 @@ section.work .container{
 
 }
 section.blog{
-    background: var(--dark);
+    background:var(--dark);
     margin-top: -6rem;
-    clip-path:polygon(0 0, 100% 0, 100% 100%,67% 90%,0 100%);
-    padding-bottom: 5rem;
+    clip-path:polygon(0 0, 100% 0, 100% 100%,75% 80%,0 100%);
+    padding-bottom: 8rem;
+    height: 600;
 }
 section.blog .section-heading{
     color: var(--pure);
