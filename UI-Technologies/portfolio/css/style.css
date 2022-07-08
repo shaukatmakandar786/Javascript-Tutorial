@@ -527,7 +527,7 @@ section.contact .input-wrap-2{
 section.contact input{
 
     padding: 0.8rem;
-    border: 1px solid var(--light);
+    /* border: 1px solid var(--light); */
     font-size: 0.9rem;
 }
 section.contact .input-wrap-2 input{
@@ -538,7 +538,7 @@ section.contact .input-wrap-2 input{
 section.contact textarea{
 
     padding: 0.8rem;
-    border: 1px solid var(--light);
+    /* border: 1px solid var(--light); */
     font-size: 0.9rem;
     margin-bottom: 2rem;
 }
@@ -564,3 +564,31 @@ footer{
     padding: 4rem 0;
     width: 100%;
 }
+footer .footer-logo{
+    margin-bottom: 2rem;
+    width: 150px;
+}
+footer .footer-socials a{
+    margin-right: 1rem;
+    text-decoration: none;
+    
+}
+footer .footer-socials a:hover i{
+
+    transition: all 0.3s linear;
+transform:translate(0,-5px);  
+background-color: var(--dark);
+color: var(--primary);
+}
+footer .footer-socials a i{
+    color: var(--pure);
+    size: 4px;
+    
+}
+footer .copyright{
+    color: var(--ternary);
+    margin-top: 2rem;
+}
+
+
+
