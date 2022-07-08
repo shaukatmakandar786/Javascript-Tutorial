@@ -7,9 +7,12 @@
     -webkit-font-smotthing:antialiased;
     
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Poppins', sans-serif;
-    height: 100vh;
+    
 }
 
 :root{
@@ -590,5 +593,78 @@ footer .copyright{
     margin-top: 2rem;
 }
 
+section.about .container{
+
+    height: 550px;
+}
+
+.site-main-wrapper{
+
+    position: relative;
+}
+
+.hamberger{
+
+    position:absolute;
+    top: 40px;
+    right: 40px;
+    z-index: 11;
+    background: none;
+    border: none;
+    
+}
+.hamberger img{
+
+    width: 35px;
+}
+
+.mobile-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+    background: var(--light);
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    padding-top: 5rem;
+    transform: translateX(-100%);
+    transition: all .5s ease-in-out;
+}
+.mobile-nav .times{
+
+    position: fixed;
+    top: 30px;
+    /* righ t:px; */
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    z-index: 1001;
+
+}
+.times img{
+    width: 30px;
+}
+.mobile-nav ul{
+    list-style-type: none;
+}
+.mobile-nav ul li a{
+    color: var(--dark);
+    text-decoration: none;
+    font-size: 1.5rem;
+    
+
+}
+.open{
+    transform: translateX(0);
+}
+
+@media (max-width:1024px)
+{
+    #main-nav{
+        display:none
+    }
+}
 
 
