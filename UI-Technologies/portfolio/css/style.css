@@ -35,6 +35,36 @@ header{
     padding: 0 80px; 
       
 }
+
+
+
+@media (min-width:567px){
+
+    .container{
+        max-width: 540px;
+    }
+}
+@media (min-width:768px){
+
+    .container{
+        max-width: 720px;
+    }
+}
+
+@media (min-width:992px){
+
+    .container{
+        max-width: 960px;
+    }
+}
+
+@media (min-width:1200px){
+
+    .container{
+        max-width: 1152px;
+    }
+}
+
 header nav .left a {
     color: var(--pure);
     text-decoration: none;
@@ -665,6 +695,101 @@ section.about .container{
     #main-nav{
         display:none
     }
+    
+
+    .hero .left img {
+        width: 200px;
+        height: 270px;
+        margin-right: 5rem;
+        border-radius: 50%;
+        margin-top: 6rem;
+    }
+
+    
+    .hero .right {
+        color: var(--pure);
+        margin-top: 4rem;
+
+    }
+
+    header {
+        background: var(--dark);
+        height: 566px;
+        clip-path: polygon(0 0, 100% 0, 100% 100%,27% 82%,0 100%);
+    }
+
+    .about .left .about-me-img {
+        height: 306px;
+        margin-top: 3rem;
+        margin-bottom: 30px;
+        margin-left: -3rem;
+    }
+
+    section.services {
+       
+        height: 921px;
+    }
+
+    section.services .card-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-column-gap: 2rem;
+        grid-row-gap: 5rem;
+        max-width: 60rem;
+        margin-left: 0.5rem;
+    }
+
+    section.reviews .slider .slide p {
+        
+        width: 35rem;
+    }
+
+    section.freelancer {
+       
+        clip-path: polygon(0 0, 100% 0, 100% 100%,26% 68%,0 100%);
+       
+    }
+
+    section.reviews .container {
+        margin-bottom: 7rem;
+       
+    }
+
+    section.work .card-wrapper {
+       
+        grid-template-columns: repeat(2,1fr);
+        margin-left: -91px;
+        margin-top: -3rem;
+    }
+
+    section.work .container {
+        height: 908px;
+        
+    }
+    section.blog .container {
+       
+        height: 800px;  
+    }
+
+    section.blog .card-wrapper {
+        
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 4rem;
+        padding: 0 9rem;
+    
+    }
+    section.blog {
+        height: 1854px;
+        margin-top: -13rem;
+        clip-path: polygon(0 0, 100% 0, 100% 100%,23% 94%,0 100%);
+    }
+
+    section.contact{
+
+        height: 850px;
+    }
+    section.contact .container {
+        margin-left: 0.5rem;
+    }
+   
 }
-
-
