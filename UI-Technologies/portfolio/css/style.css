@@ -633,16 +633,16 @@ section.about .container{
     position: relative;
 }
 
-.hamberger{
+/* .hamberger{
 
     position:absolute;
     top: 40px;
     right: 40px;
-    z-index: 11;
+    /* z-index: 11; */
     background: none;
     border: none;
     
-}
+} */
 .hamberger img{
 
     width: 35px;
@@ -690,12 +690,23 @@ section.about .container{
     transform: translateX(0);
 }
 
+
 @media (max-width:1024px)
 {
     #main-nav{
         display:none
     }
     
+    .hamberger{
+
+        position:absolute;
+        top: 40px;
+        right: 40px;
+        z-index: 11;
+        background: none;
+        border: none;
+        
+    }
 
     .hero .left img {
         width: 200px;
@@ -786,10 +797,154 @@ section.about .container{
 
     section.contact{
 
-        height: 850px;
+        height: 750px;
     }
     section.contact .container {
         margin-left: 0.5rem;
     }
    
+}
+@media (max-width:567px){
+
+    .hero{
+        flex-direction: column;
+    }
+
+    .hero .left img {
+        width: 190px;
+        height: 270px;
+        margin-right: -4rem;
+        border-radius: 50%;
+        margin-top: 1rem;
+    }
+    .hero .right{
+        position: absolute;
+        top: 255px;
+        margin-top: -3rem;
+        margin-left: -2rem;
+        background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.9));
+    }
+    header {
+        background: var(--dark);
+        height: 583px;
+        clip-path: polygon(0 0, 100% 0, 100% 100%,23% 89%,0 100%);
+    }
+    .about-inner-wrapper{
+
+        flex-direction: column;
+    }
+    .about .right{
+        text-align: center;
+       margin-left: -3rem;
+       /* width: 300px; */
+    }
+    section.about .container{
+        margin-top: -5rem;
+        margin-left: 3rem;
+        height: 790px;
+        
+    }
+    .about .left .about-me-img {
+        height: 398px;
+        width: 318px;
+        margin-top: 3rem;
+        /* margin-bottom: 30px; */
+        
+    }
+    section.about .social {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    section.about p {
+        font-family: 'Lato',sans-serif;
+        color: var(--ternary);
+        line-height: 1.8;
+        width: 400px;
+    }
+    section.about .social {
+        display: flex;
+        margin-top: 2rem;
+    }
+
+    section.services .container {
+    
+        width: 389px;
+        padding-top: 4px;
+        margin-left: -4rem;
+    }
+    section.freelancer{
+
+        margin-top: 15rem;
+        clip-path: polygon(0 0, 100% 0, 100% 100%,25% 87%,0 100%);
+        height: 8rem;
+    }
+    section.services{
+        height: 1220px;
+        background: var(--light);
+    }
+
+    section.services .card-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-column-gap: 2rem;
+        grid-row-gap: 5rem;
+        max-width: 60rem;
+        margin-left: -0.5rem;
+    }
+
+    section.work .card-wrapper {
+       
+        grid-template-columns: repeat(1,1fr);
+        margin-left: -91px;
+        margin-top: -3rem;
+    }
+    section.work{
+        height: 1650px;
+    }
+   
+    section.blog .card-wrapper {
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 4rem;
+        padding: 0 0rem;
+    }
+
+    section.blog .card-wrapper .card .card-content {
+        padding: 1rem;
+    }
+
+    section.blog {
+        height: 1580px;
+        margin-top: -13rem;
+        clip-path: polygon(0 0, 100% 0, 100% 100%,25% 95%,0 100%);
+    }
+    section.contact .container{
+
+        padding: 0px 4px;
+        
+    }
+    section.contact{
+
+        height: 800px;
+    }
+
+    section.contact .input-wrap {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 2rem;
+        margin-bottom: 2rem;
+    }
+    section.review .container{
+
+        padding: 0px 0px;
+    }
+
+    section.reviews .slider .slide p {
+        font-size: 15px;
+        padding: 0 0rem;
+        font-family: 'Lato',sans-serif;
+        color: var(--ternary);
+        margin-bottom: 1rem;
+        width: 15rem;
+    }
 }
