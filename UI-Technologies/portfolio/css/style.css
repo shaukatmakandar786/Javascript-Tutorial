@@ -633,7 +633,7 @@ section.about .container{
     position: relative;
 }
 
-/* .hamberger{
+.hamberger{
 
     position:absolute;
     top: 40px;
@@ -642,7 +642,7 @@ section.about .container{
     background: none;
     border: none;
     
-} */
+}
 .hamberger img{
 
     width: 35px;
@@ -947,4 +947,4 @@ section.about .container{
         margin-bottom: 1rem;
         width: 15rem;
     }
-}
+}   
